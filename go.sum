@@ -1,4 +1,0 @@
-github.com/go-logr/logr v0.1.0/go.mod h1:ixOQHD9gLJUVQQ2ZOR7zLEifBX6tGkNJF4QyIY7sIas=
-github.com/kubernetes-sigs/go-open-service-broker-client v0.0.0-20200527163240-4406bd2cb6b8/go.mod h1:5VFrdwwxqkzCF3pL7MY5Om1btQ6UsxO87DyjZFO0s5M=
-github.com/pmorie/osb-broker-lib v0.0.0-20180516212803-87d71cfbf342/go.mod h1:2JDswJTrX9wBIJI2V5B8JFLWTXl7b/7+vysy0aKbZo0=
-k8s.io/klog/v2 v2.0.0/go.mod h1:PBfzABfn139FHAV07az/IF9Wp1bkk3vpT2XSJ76fSDE=
