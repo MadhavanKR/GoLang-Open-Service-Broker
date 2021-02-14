@@ -3,6 +3,7 @@ package main
 import (
 	"context"
 	"flag"
+	"github.com/MadhavanKR/go-osb/pkg/datastore"
 	"github.com/MadhavanKR/go-osb/pkg/osb_services"
 	"github.com/MadhavanKR/go-osb/pkg/server"
 	"github.com/golang/glog"
@@ -17,6 +18,7 @@ func main() {
 		BrokerName:    "sample-broker",
 		InstanceCount: 0,
 		BindingCount:  0,
+		DataStore: datastore.NewInMemoryDataStore(),
 	}
 	brokerServer, brokerServerCreateErr := server.GetHttpServer(brokerContext)
 	if brokerServerCreateErr != nil {
